@@ -1,0 +1,367 @@
+ #nav-link{
+  background: #FF9800;
+} 
+
+.fa-sharp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 35px;
+}
+/* -----------------------------section1------------------------------------------------- */
+.section1{
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 4%;
+}
+
+.droite{
+    background: linear-gradient(90deg, rgba(13, 66, 61, 0.9) -22.84%, rgba(12, 199, 181, 0.9) 138.88%);
+    height: 400px;
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    justify-content: space-around;
+}
+.paragraphe1{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.gauche{
+   width: 400px;
+}
+.groupe-31{
+    width: 550px;
+    height: 100%;
+    margin-top: -15%;
+}
+/* -------------------------------section2---------------------------------------------------- */
+#section2-1{
+  display: flex;
+  background: #009688;
+  width: 782px;
+  height: 527px;
+  top: 845px;
+  left: 64px;
+  border-radius: 25px;
+}
+.titre1{
+    font-size: 25px;
+    padding: 10%;
+}
+.programations{
+    display: flex;
+    justify-content: space-between;
+}
+.formation{
+    gap: 10%;
+}
+.Programation{
+    width: 49px;
+    height: 49px;
+    top: 1053px;
+    left: 126px;
+    padding: 1.94px 0px 1.94px 0px;
+    gap: 0px;
+    opacity: 0px;
+}
+#section2-2{
+width: 782px;
+height: 527px;
+top: 845px;
+left: 64px;
+gap: 0px;
+opacity: 0px;
+
+}
+#sec2{
+    display: flex;
+    gap: 1%;
+    height: auto;
+}
+#section2-1{
+    width: 50%;
+}
+#section2-2{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10%;
+background: #FFFFFF;
+width: 517px;
+height: 527px;
+top: 845px;
+left: 859px;
+gap: 0px;
+border-radius: 20px 20px 20px 20px;
+border: 1px solid #009688;;
+opacity: 0px;
+
+}
+
+/* -------------------------section3---------------------------------------- */
+.deux3{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 1314px;
+height: 245px;
+top: 1528px;
+left: 63px;
+gap: 0px;
+border-radius: 25px 0px 0px 0px;
+opacity: 0px;
+gap: 3%;
+}
+.deux3-1{
+    width: 20%;
+    height: 200px;
+    border: 2px solid red;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+.galerie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    background: #FFFFFF;
+    height: 115px;
+    top: 1573px;
+    left: 173px;
+    padding: 3.75px 0px 3.75px 0px;
+    gap: 0px;
+    opacity: 0px;    
+}
+#h-c3{
+    font-size: 20px;
+}
+
+/* ---------------------------------------------------section4----------------------------------------- */
+#sec4{
+height: 779px;
+left: -90px;
+gap: 0px;
+opacity: 0px;
+position: relative;
+color: #FFFFFF;
+background: #F44336;
+padding: 5%;
+ }
+ .custom-shape-divider-bottom-1718109654 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1718109654 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1718109654 .shape-fill {
+    fill: #FFFFFF;
+}
+ .img-sec4{
+width: 43px;
+height: 43px;
+top: 2022px;
+left: 74px;
+padding: 0px 1.26px 0px 1.26px;
+gap: 0px;
+opacity: 0px;
+ }
+ .deux4{
+    display: flex;
+    gap: 2%;
+ }
+
+ /* ---------------------------------------------section5--------------------------------- */
+ .section5{
+    width: 98%;
+    padding: 4%;
+ }
+
+ .galeri2{
+width: 255px;
+height: 266px;
+gap: 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+position: absolute;
+border: 1px solid #009688
+ }
+ .jane{
+width: 184px;
+height: 162px;
+top: 3243px;
+left: 151px;
+gap: 0px;
+opacity: 0px;
+ }
+ #gal-6{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: #F44336;
+
+ }
+ .custom-shape-divider-top-1718144265 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1718144265 svg {
+    position: relative;
+    display: block;
+    width: calc(138% + 1.3px);
+    height: 81px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1718144265 .shape-fill {
+    fill: #FFFFFF;
+}
+ .gal1{
+    width: 40%;
+    height: 100%;
+ }
+ .gal2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: -5%;
+    height: 100vh;
+ }
+ .gal2-1{
+    display: flex;
+    gap: 10%;
+    height: 70vh;
+    align-items: center;
+    margin-bottom: 150px;
+    margin-top: 20%;
+ }
+ .gal2-2{
+    display: flex;
+    gap: 10%;
+    margin-bottom: 110px;
+ }
+ .bakelistes1{
+    width: 480px;
+height: 530px;
+left: 64px;
+gap: 0px;
+opacity: 0px;
+ }
+ .bakelistes2{
+    width: 313px;
+    height: 186px;
+    left: 600px;
+    gap: 0px;
+    opacity: 0px;
+ }
+ .bakelistes3{
+    width: 313px;
+    height: 196px;
+    left: 599px;
+    opacity: 0px;
+ }
+ 
+ /* ---------------------------------section7--------------------------------------------- */
+ #sec-footer{
+    background: #EEF9F8E5;
+ }
+ #footer{
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+ }
+ .titr-footer{
+    margin-top: 5%;
+ }
+ .img-footer{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 5px 5px 0px;
+ }
+ #btn-footer{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5%;
+ }
+
+ /* ---------------------------------------------footr-fin-------------------------------------- */
+ #fotter-fin{
+    display: flex;
+    gap: 3%;
+    margin-top: 4%;
+    padding: 4%;
+    background: #009688;
+
+ }
+ .sociaux{
+    display: flex;
+    justify-content: space-around;
+ }
+ #soci{
+    color: white;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------media query--------------------------------------- */
+
+@media screen and (min-width: 480px) and(max-width: 800px) {
+
+    .deux3 {
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+    }
+}
