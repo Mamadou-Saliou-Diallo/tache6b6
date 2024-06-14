@@ -12,7 +12,7 @@
 /* -----------------------------section1------------------------------------------------- */
 .section1{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     height: 80%;
     flex-wrap: wrap;
     position: relative;
@@ -39,17 +39,17 @@
    width: 400px;
 }
 .groupe-31{
-    width: 550px;
+    width: 450px;
     height: 100%;
-    margin-top: -15%;
+    margin-top: -10%;
 }
 /* -------------------------------section2---------------------------------------------------- */
 #section2-1{
   display: flex;
   background: #009688;
-  width: 882px;
-  height: 527px;
-  top: 845px;
+  flex-wrap: wrap;
+  width: 30%;
+  height: 500px;
   left: 64px;
   border-radius: 25px;
 }
@@ -74,8 +74,8 @@
     opacity: 0px;
 }
 #section2-2{
-width: 782px;
-height: 527px;
+width: 40%;
+height: 100%;
 top: 845px;
 left: 64px;
 gap: 0px;
@@ -84,21 +84,24 @@ opacity: 0px;
 }
 #sec2{
     display: flex;
+    flex-wrap: wrap;
     gap: 1%;
-    height: auto;
 }
 #section2-1{
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #section2-2{
 display: flex;
 justify-content: center;
 align-items: center;
+text-align: center;
 gap: 10%;
 background: #FFFFFF;
-width: 517px;
-height: 527px;
-top: 845px;
+width: 50%px;
+height: 500px;
 left: 859px;
 gap: 0px;
 border-radius: 20px 20px 20px 20px;
@@ -328,36 +331,11 @@ opacity: 0px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ---------------------------media query--------------------------------------- */
 
-@media screen and (min-width: 480px) and(max-width: 800px) {
+@media screen and (min-width: 1024px) and(max-width: 1440px) {
 
-    .deux3 {
-        background-color: red;
-        display: flex;
-        flex-direction: column;
-    }
+  #section2-1{
+    background-color: #F44336;
+  }
 }
