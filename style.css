@@ -47,6 +47,30 @@
     margin-top: -10%;
 }
 /* -------------------------------section2---------------------------------------------------- */
+#section2-r{
+  display: flex;
+  gap: 2%;
+}
+#gauche1{
+  width: 45%;
+  background-color: #009688;
+}
+#droite1{
+  border: 1px solid #009688;
+  border-radius: 20px;
+  width: 30%;
+}
+.formation{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+.les-icones{
+  display: flex;
+  flex-wrap: wrap;
+   justify-content: space-between;
+}
 #section2-1{
   display: flex;
   background: #009688;
