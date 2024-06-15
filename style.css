@@ -16,15 +16,18 @@
 .section1{
     display: flex;
     justify-content: space-around;
+    width: 100%;
     height: 80%;
     flex-wrap: wrap;
     position: relative;
+    margin-bottom: 4%;
     margin-top: 4%;
 }
 
 .droite{
     background: linear-gradient(90deg, rgba(13, 66, 61, 0.9) -22.84%, rgba(12, 199, 181, 0.9) 138.88%);
     height: 400px;
+    width: 60%;
 }
 .btn1{
     display: flex;
@@ -56,20 +59,28 @@
   background-color: #009688;
 }
 #droite1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #009688;
   border-radius: 20px;
-  width: 30%;
+  width: 40%;
 }
 .formation{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 2%;
+  gap: 5%;
+  width: 45%;
+  padding: 5%;
+  color: white;
 }
 .les-icones{
   display: flex;
   flex-wrap: wrap;
-   justify-content: space-between;
+   justify-content: space-around;
+   gap: 5%;
 }
 #section2-1{
   display: flex;
@@ -180,14 +191,16 @@ gap: 3%;
 
 /* ---------------------------------------------------section4----------------------------------------- */
 #sec4{
-height: 879px;
-left: -90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+height: 989px;
 gap: 0px;
 opacity: 0px;
 position: relative;
 color: #FFFFFF;
 background: #F44336;
-padding: 5%;
+padding: 2%;
  }
  .custom-shape-divider-bottom-1718109654 {
     position: absolute;
