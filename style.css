@@ -153,24 +153,26 @@ opacity: 0px;
 display: flex;
 justify-content: center;
 align-items: center;
-width: 1314px;
+flex-wrap: wrap;
+width: 100%
 height: 245px;
 top: 1528px;
-left: 63px;
 gap: 0px;
 border-radius: 25px 0px 0px 0px;
 opacity: 0px;
 gap: 3%;
 }
 .deux3-1{
-    width: 20%;
-    height: 200px;
-    border: 2px solid red;
-    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 20%;
+    height: 150px;
+    border: 2px solid red;
+    border-radius: 20px;
     padding: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 .galerie{
     display: flex;
@@ -185,8 +187,12 @@ gap: 3%;
     gap: 0px;
     opacity: 0px;    
 }
-#h-c3{
-    font-size: 20px;
+.galerie1{
+  width: 80%;
+  height: auto;
+}
+#h-c4{
+    font-size: 10px;
 }
 
 /* ---------------------------------------------------section4----------------------------------------- */
