@@ -3,6 +3,11 @@
   font-family: font-family-base;
 
  }
+ .logo-bakeli{
+  width: 25%;
+  height: auto;
+  padding: 5%;
+ }
  #nav-link{
   background: #FF9800;
 } 
@@ -62,13 +67,29 @@
     margin-left: -20%;
 }
 /* -------------------------------section2---------------------------------------------------- */
+#card{
+  margin-left: 4%;
+}
+#card-bo1{
+  background-color: #009688;
+  height: 490px;
+}
+#card-bo2{
+  height: 490px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* -------------------------------------------a suprimer en bas---------------------------- */
 #section2-r{
   display: flex;
   justify-content: center;
-  gap: 1%;
+  gap: 4%;
   height: 100%;
-  margin-left: 7%;
+  margin-left: 2%;
 }
+
 #gauche1{
   display: flex;
   flex-direction: column;
@@ -87,6 +108,7 @@
   border-radius: 20px;
   gap: 7%;
   width: 40%;
+  height: 500px;
 }
 .formation{
   display: flex;
@@ -171,8 +193,8 @@ opacity: 0px;
 
 /* -------------------------section3---------------------------------------- */
 #section3{
-  padding: 10%;
-  margin-top: -5%;
+  padding: 4%;
+  margin-top: 2%;
 }
 #section3-r{
   display: flex;
@@ -272,7 +294,7 @@ margin-top: -50%;
  }
  .dipl,
  #block{
-  margin-left: 4%;
+  margin-left: 10%;
  }
  .dipl{
   margin-top: -7%;
@@ -306,7 +328,6 @@ margin-top: -50%;
  }
  #sec6{
   background: #F44336;
-  margin-top: 6%;
   padding-top: 10%;
   position: relative;
  }
@@ -329,54 +350,61 @@ margin-top: -50%;
 .custom-shape-divider-top-1719744178 .shape-fill {
   fill: #FFFFFF;
 }
-  #gal-6{
+ /* -----------------------------reprendre- section6------------------------------- */
+ .global{
+  display: flex;
+  height: 85vh;
+  gap: 2%;
+ }
+ .und{
+  background-image: url(images/bakelistes.jpeg);
+  background-size: cover;
+  width: 40%;
+  height: 70vh;
+ }
+ .deuxd{
+  width: 60%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  gap: 3%;
+ }
+ .deux1{
+  display: flex;
+  gap: 3%;
+  width: 100%;
+  height: 100vh;
+ }
+  .div-img1{
+    background-image: url('images/bakelistes2.jpeg');
+    background-position: center;
+    background-size: cover;
     width: 100%;
     height: 100%;
   }
-  .gal1{
+  .div-img2{
+    background-image: url('images/bakelistes3.jpeg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .div-text{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;
-    gap: 2%;
   }
-  .img1{
-    width: 40%;
-    height: 600px;
-  }
-  .img2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-content: flex-end;
-    width: 100%;
-    gap: 10px;
-    height: 100%;
-  }
-  .img-p{
-    display: flex;
-    gap: 10%;
-  }
-  .img-p p{
-    margin: auto;
-    height: auto;
-  }
-  .bakelistes1{
-    width: 100%;
-    height: 620px;
-  }
-  .bakelistes2{
-    width: 45%;
-    padding-top: 30px;
-  }
-  .bakelistes3{
-    width: 45%;
-    padding-bottom: 10px;
-  }
+ .deux2{
+  display: flex;
+  gap: 3%;
+  width: 100%;
+  height: 100vh;
+ }
 
 
- 
   /* ---------------------------------------------les images------------------- */
 
   .gal2-1, .gal2-2{
@@ -407,16 +435,21 @@ margin-top: -50%;
  }
  #footer{
     display: flex;
+    gap: -2%;
     width: 100%;
     margin-top: 5%;
+    margin-left: 4%;
  }
  .titr-footer{
     margin-top: 5%;
  }
  .img-footer{
-    width: 100%;
-    height: 200px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
+    width: 90%;
+    background-color: #FFFFFF;
+    height: 190px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    }
  #btn-footer{
     display: flex;
     justify-content: center;
